@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# SubGate 运行时数据（不包含 bin/，因为 mihomo 内置）
+data/
+output/
+mihomo_config/
+*.log
+
+# 测试
+config_*test*.yaml
+config_quick.yaml
+sample_sub.yaml
+output_test/
+output_real/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
